@@ -1,16 +1,10 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
+body {
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-bottom: 70px;
+  margin-left: 30px;
 }
 
-.col-left {
-  flex: 1;
-}
-
-.col-right {
-  flex: 0 0 35%;
-}
-
-h1 {
-  color: #1c1c6d;
+h1, h2, h3, h4, h5, h6 {
+  color: #1E90FF; /* ou outra tonalidade de azul escuro que você prefira */
 }
