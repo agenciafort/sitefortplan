@@ -10,18 +10,40 @@
 	<title>Título da minha página - Inclui palavras-chave relevantes</title>
 	<link rel="canonical" href="https://www.exemplo.com/pagina.html">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
 </head>
 
-<header>
-	
 
-  </header>
-  
-  
 
 <body>
+
+	<header id="header">
+        <a id="logo" href="">Logo</a>
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Sobre</a></li>
+                    <li><a href="/">Produtos</a></li>
+                    <li><a href="/">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="item-right">   <!--item que aparecerá apenas na versão descktop-->
+            <a>00 1234-5678</a>
+        </div>
+    </header>
+	 
+	<div id="corpo">
+
+
+	
+	
+  
+
 
 
 		
@@ -31,13 +53,54 @@
 <p><strong>Lorem Ipsum</strong> is simply <a href="https://wp.fortplanos.com.br/">dummy text</a> of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 <p><img decoding="async" loading="lazy" class="alignnone size-medium wp-image-6" src="https://wp.fortplanos.com.br/wp-content/uploads/2023/03/Como-Escolher-Um-Plano-De-Saude-Em-Sao-Paulo-300x210.jpg" alt="" width="300" height="210" srcset="https://wp.fortplanos.com.br/wp-content/uploads/2023/03/Como-Escolher-Um-Plano-De-Saude-Em-Sao-Paulo-300x210.jpg 300w, https://wp.fortplanos.com.br/wp-content/uploads/2023/03/Como-Escolher-Um-Plano-De-Saude-Em-Sao-Paulo-1024x717.jpg 1024w, https://wp.fortplanos.com.br/wp-content/uploads/2023/03/Como-Escolher-Um-Plano-De-Saude-Em-Sao-Paulo-768x538.jpg 768w, https://wp.fortplanos.com.br/wp-content/uploads/2023/03/Como-Escolher-Um-Plano-De-Saude-Em-Sao-Paulo.jpg 1028w" sizes="(max-width: 300px) 100vw, 300px" /></p>
 
-
+</div>
 </div>
 
 
 </body>
+<script src="app.js"></script>
 
 <footer>
-   footer aqui
- </footer>
+  <article class="footer">
+          <ul class="footer-box">
+              <ul class="colunm-footer">
+              <a href="" alt="logo-footer">
+                  <img class="logo-footer" src="/" alt="logo-footer">
+              </a>
+              <p class="paragraph-footer">Lorem ipsum dolor</p>
+              <div class="footer-row">
+                  <li class="item-row"><img src="elipse.png"><a href="/">Lorem ipsum</a></li>
+                  <li class="item-row"><img src="elipse.png"><a href="/">Lorem ipsum</a></li>
+              </div>
+              <div class="footer-row">
+                  <li class="item-row"><img src="elipse.png"><a href="/">Lorem ipsum</a></li>
+                  <li class="item-row"><img src="elipse.png"><a href="/">Lorem ipsum</a></li>
+              </div>
+          </ul>
+          <ul class="colunm-footer">
+              <li>
+                  <h5>Footer título 1</h5>
+                  <p class="paragraph-footer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quae nisi officiis ipsum molestiae rem porro nihil. Est ad voluptatibus enim modi. Esse deserunt modi excepturi aspernatur maxime voluptates nisi.</p>
+              </li>
+          </ul>
+          <ul class="colunm-footer">
+              <li>
+                  <h5>Footer título 2</h5>
+                  <p class="paragraph-footer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quae nisi officiis ipsum molestiae rem porro nihil. Est ad voluptatibus enim modi. Esse deserunt modi excepturi aspernatur maxime voluptates nisi.</p>
+              </li>
+          </ul>
+          <ul class="colunm-footer">
+              <li>
+                  <h5>Footer título 3</h5>
+                  <p class="paragraph-footer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quae nisi officiis ipsum molestiae rem porro nihil. Est ad voluptatibus enim modi. Esse deserunt modi excepturi aspernatur maxime voluptates nisi.</p>
+              </li>
+          </ul>
+      </ul>
+  </article>
+  <article class="direitos">
+      <p>Todos os direitos reservados</p>
+      <a href="/">Privacidade e cookies</a>
+      <p>Powered by Mateus Teixeira</p>
+  </article>
+</footer>
  </html>
