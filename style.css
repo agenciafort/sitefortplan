@@ -1,15 +1,30 @@
-body, ul {
+body {
     margin: 0;
     padding: 0;
+}
 
-display: flex;
-flex-direction: column;
+
+* {
+  line-height: 2.0; /* aumenta a altura da linha para 1,5 vezes a altura da fonte para todos os elementos HTML */
+  font-family: Verdana
+
+}
+
+li {
+
+list-style: inside;
+
+}
+
+
+.corpo {
+    margin: 5%;
+list-style-type: circle;
 }
 
 .item {
-    text-decoration: none;
-    font-family: sans-serif;
-    color: gray;
+    
+    font-family: verdana;
 }
 
 #header {
@@ -123,13 +138,12 @@ flex-direction: column;
 .footer {
     max-width: 100vw;
     height: 100%;
-    padding: 16px;
     background-color: bisque;
 }
 
 .footer > ul, li, a {
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: verdana;
     color: gray;
 }
 
